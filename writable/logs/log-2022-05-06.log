@@ -1,0 +1,8 @@
+ERROR - 2022-05-06 11:43:06 --> Cannot add or update a child row: a foreign key constraint fails (`banco`.`transaccion`, CONSTRAINT `fk_transaccion_tipo_transaccion` FOREIGN KEY (`tipo_transaccion_id`) REFERENCES `tipo_transaccion` (`id`) ON UPDATE CASCADE)
+CRITICAL - 2022-05-06 14:17:18 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(832): App\Controllers\API\Transacciones->getTransaccionesByCliente('2')
+#1 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Transacciones))
+#2 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\plantilla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\plantilla\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-05 19:14:53 --> Class 'App\Models\TransaccionesModel' not found
+#0 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(809): App\Controllers\API\Transacciones->__construct()
+#1 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\plantilla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\plantilla\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-05 19:16:38 --> Class 'App\Models\TransaccionesModel' not found
+#0 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(809): App\Controllers\API\Transacciones->__construct()
+#1 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\plantilla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\plantilla\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-05 19:19:14 --> Class 'App\Models\TransaccionesModel' not found
+#0 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(809): App\Controllers\API\Transacciones->__construct()
+#1 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\plantilla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\plantilla\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-05 19:22:07 --> Cannot add or update a child row: a foreign key constraint fails (`banco`.`transaccion`, CONSTRAINT `fk_transaccion_tipo_transaccion` FOREIGN KEY (`tipo_transaccion_id`) REFERENCES `tipo_transaccion` (`id`) ON UPDATE CASCADE)
+ERROR - 2022-05-05 19:48:27 --> Cannot add or update a child row: a foreign key constraint fails (`banco`.`transaccion`, CONSTRAINT `fk_transaccion_tipo_transaccion` FOREIGN KEY (`tipo_transaccion_id`) REFERENCES `tipo_transaccion` (`id`) ON UPDATE CASCADE)
+ERROR - 2022-05-05 19:56:21 --> Cannot add or update a child row: a foreign key constraint fails (`banco`.`transaccion`, CONSTRAINT `fk_transaccion_tipo_transaccion` FOREIGN KEY (`tipo_transaccion_id`) REFERENCES `tipo_transaccion` (`id`) ON UPDATE CASCADE)

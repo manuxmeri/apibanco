@@ -1,0 +1,7 @@
+CRITICAL - 2022-05-04 10:30:59 --> Call to undefined method App\Controllers\API\Clientes::respondUpdate()
+#0 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(832): App\Controllers\API\Clientes->update('1')
+#1 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#2 C:\xampp\htdocs\plantilla\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\plantilla\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\plantilla\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
